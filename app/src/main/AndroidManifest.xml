@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DefenseDreamers"
+        tools:targetApi="31">
+        <activity
+            android:name=".airforcemodule.planes"
+            android:exported="false" />
+        <activity
+            android:name=".airforcemodule.radar"
+            android:exported="false" />
+        <activity
+            android:name=".airforcemodule.jets"
+            android:exported="false" />
+        <activity
+            android:name=".airforcemodule.helicopters"
+            android:exported="false" />
+        <activity
+            android:name=".nccmodule.otherinfo"
+            android:exported="false" />
+        <activity
+            android:name=".nccmodule.camp"
+            android:exported="false" />
+
+        <activity
+            android:name=".armymodule.Equpiments"
+            android:exported="false" />
+        <activity
+            android:name=".armymodule.Aviations"
+            android:exported="false" />
+        <activity
+            android:name=".armymodule.Tanks"
+            android:exported="false" />
+        <activity
+            android:name=".navymodule.Missiles"
+            android:exported="false" />
+        <activity
+            android:name=".navymodule.Aircraft"
+            android:exported="false" />
+        <activity
+            android:name=".navymodule.Submarine"
+            android:exported="false" />
+        <activity
+            android:name=".navymodule.warships"
+            android:exported="false" />
+        <activity
+            android:name=".nccmodule.Ncc"
+            android:exported="false" />
+        <activity
+            android:name=".airforcemodule.Airforce"
+            android:exported="false" />
+        <activity
+            android:name=".navymodule.Navy"
+            android:exported="false" />
+        <activity
+            android:name=".armymodule.Army"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

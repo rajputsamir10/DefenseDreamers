@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".armymodule.Army">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/airforcecamo" /> <!-- Your background image here -->
+
+    <!-- Content over the background -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- ARMY Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+
+                android:layout_marginTop="150dp"
+                android:background="#2168ae"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="AirForce"
+                android:textColor="#FFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                />
+
+
+            <!-- Buttons -->
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnheli"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_airforce"
+                android:text="Helicopters"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnjet"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_airforce"
+                android:text="Jets"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnRDR"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/bg_airforce"
+                android:text="RADAR"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCARGO"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_marginTop="-25dp"
+                android:background="@drawable/bg_airforce"
+                android:text="Planes"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

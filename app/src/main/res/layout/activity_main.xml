@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center">
+
+        <!-- Header Section -->
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="103dp"
+            android:layout_marginBottom="24dp"
+            android:background="#263238"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="🇮🇳 Welcome, Defense Dreamers"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- ARMY Button -->
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnArmy"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_army"
+            android:text="🪖 ARMY"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <!-- NAVY Button -->
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNavy"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_navy"
+            android:text="⚓ NAVY"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- AIRFORCE Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAirforce"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_airforce"
+            android:text="✈️ AIRFORCE"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- NCC Button -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNCC"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/bg_ncc"
+            android:text="🎖️ NCC"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
