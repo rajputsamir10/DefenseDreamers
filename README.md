@@ -51,7 +51,7 @@ python manage.py runserver
 
 3. In `ApiClient.java`, set the base URL:
 ```java
-.baseUrl("https://your-app-name.up.railway.app/")
+.baseUrl("https://defencedreamers.up.railway.app/")
 🙌 Author
 👨‍💻 Samir Singh
 🎖️ BCA Student | NCC Cadet | Defense Aspirant
